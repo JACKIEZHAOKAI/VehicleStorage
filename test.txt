@@ -1,0 +1,116 @@
+Here is one client side testing result
+
+
+
+
+Here is the menu for implementing GET, CREATE, 
+UPDATE, DELETE, FILTER, and PRINTALL methods 
+__________________________________________
+C:Create new vehicle and store in the storage 
+G:Get vehicle from storage with a given ID 
+U:Update vehile info with a given an ID 
+D:Delete a vehicle from the storage with a given ID 
+F:filter the vehicle you want(year/make/model) 
+  leave year to be 0 if not want to search by year 
+  leave make or model empty if not search by them 
+P:print all vehicles in the storage 
+Q:quit the program 
+
+Please enter your option: 
+c
+Enter the id: 
+10
+Enter the year: 
+1999
+Enter the make: 
+Enter the make: 
+honda
+Enter the model: 
+civic
+Please enter your option: 
+c
+Enter the id: 
+20
+Enter the year: 
+To yota
+Enter the year: 
+Enter the year: 
+2013
+Enter the make: 
+Enter the make: 
+prius
+Enter the model: 
+prius
+Please enter your option: 
+c
+Enter the id: 
+honda
+Enter the id: 
+30
+Enter the year: 
+accord
+Enter the year: 
+2030
+Enter the make: 
+Enter the make: 
+honda
+Enter the model: 
+civic
+Please enter your option: 
+p
+ID:            10 
+Year:        1999 
+Make:       honda 
+Model:      civic 
+
+ID:            20 
+Year:        2013 
+Make:       prius 
+Model:      prius 
+
+ID:            30 
+Year:        2030 
+Make:       honda 
+Model:      civic 
+
+Please enter your option: 
+d
+Enter the id: 
+10
+delete successful!
+Please enter your option: 
+p
+ID:            20 
+Year:        2013 
+Make:       prius 
+Model:      prius 
+
+ID:            30 
+Year:        2030 
+Make:       honda 
+Model:      civic 
+
+Please enter your option: 
+u
+Enter the id: 
+20
+Enter the year: 
+2033
+Enter the make: 
+Enter the make: 
+honda
+Enter the model: 
+civic
+Please enter your option: 
+p
+ID:            20 
+Year:        2033 
+Make:       honda 
+Model:      civic 
+
+ID:            30 
+Year:        2030 
+Make:       honda 
+Model:      civic 
+
+Please enter your option: 
